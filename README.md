@@ -83,11 +83,6 @@ Membangun sistem berbasis web untuk:
 * Session
 * Filter (role-based access)
 
-👉 Ini akan melatih:
-
-* Session handling
-* Filter di CodeIgniter 4
-
 ---
 
 ### 2. 👤 Manajemen Pasien
@@ -105,11 +100,6 @@ Field:
 * Tanggal lahir
 * No HP
 
-👉 Latihan:
-
-* CRUD
-* Validasi
-* Query dasar
 
 ---
 
@@ -133,10 +123,6 @@ Field:
   * Diagnosa
   * Tanggal periksa
 
-👉 Ini bagian PALING PENTING:
-
-* JOIN query
-* Relasi tabel
 
 ---
 
@@ -152,11 +138,6 @@ Field:
 * Input resep dari rekam medis
 * Banyak obat dalam satu transaksi
 
-👉 Latihan:
-
-* One-to-many relationship
-* Insert multiple data
-
 ---
 
 ### 7. 📊 Dashboard Sederhana
@@ -165,15 +146,9 @@ Field:
 * Jumlah kunjungan
 * Stok obat
 
-👉 Latihan:
-
-* COUNT
-* SUM
-* Query agregasi
-
 ---
 
-## 🗂️ Struktur Database (Simplified)
+## 🗂️ Struktur Database
 
 ### Tabel:
 
@@ -196,67 +171,11 @@ Field:
 
 ---
 
-## 🔄 Contoh Flow Sistem
-
-### Flow 1: Login
-
-1. User login
-2. Validasi ke database
-3. Simpan session
-4. Redirect sesuai role
-
----
-
-### Flow 2: Input Rekam Medis
-
-1. Pilih pasien
-2. Pilih dokter
-3. Input diagnosa
-4. Simpan ke database
-
----
-
-### Flow 3: Lihat Riwayat Pasien
-
-* Ambil data:
-
-  * pasien
-  * rekam medis
-  * dokter
-
-👉 Wajib pakai JOIN
-
----
-
-## 🧠 Tantangan Teknis (Wajib Dikerjakan)
-
-* Query JOIN manual
-* Validasi form
-* Session login manual
-* Filter (auth & role)
-* Pagination (opsional tapi bagus)
-
----
-
 ## 🚀 Teknologi yang Digunakan
 
 * Backend: CodeIgniter 4
 * Database: MySQL
-* Frontend: HTML, CSS (boleh pakai Bootstrap)
-
----
-
-## 📈 Scope Batasan (biar tidak overkill)
-
-TIDAK perlu:
-
-* API kompleks
-* UI mewah
-* Realtime system
-
-Fokus:
-
-> **logic, query, dan arsitektur**
+* Frontend: HTML, CSS
 
 ---
 
